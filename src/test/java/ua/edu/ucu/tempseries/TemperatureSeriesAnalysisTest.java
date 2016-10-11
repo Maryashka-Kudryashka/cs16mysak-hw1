@@ -224,6 +224,6 @@ public class TemperatureSeriesAnalysisTest {
     public void ExeptiontestAddTemps() {
         double[] temperatureSeries = {8.0, -1.0, 19.0, -6.0};
         TemperatureSeriesAnalysis seriesAnalysis = new TemperatureSeriesAnalysis(temperatureSeries);
-        seriesAnalysis.addTemps(4.0,-678.5,9.0);
+        seriesAnalysis.addTemps(4.0,-678.5,8.0);
     }
 }
